@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+}
+.wrap{
+    width:510px;
+    height: 1004px;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    border-bottom: 1px solid black;
+
+    position: relative;
+}
+.ele{
+    width:150px;
+    height: 200px;
+    /* margin:  auto; */
+    border: 1px solid black;
+
+    position: absolute;
+    /* left: 175px; */
+    right: 0px;
+    bottom: 0px;
+}
+.tbl {
+    border-collapse: collapse;
+}
+.tbl td {
+    margin: 0px;
+    padding: 0px;
+    width: 510px;
+    height: 250px;
+    border-bottom: 1px solid black;
+}
+
+
+.man {
+    width: 70px;
+    height: 100px;
+    border: 1px solid black;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    display: none;
+}
